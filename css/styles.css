@@ -1,0 +1,52 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: "museo-sans",sans-serif;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    color: #676857;
+}
+
+header {
+    text-align: right;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+header img{
+    margin-top: 20px;
+}
+
+h1{
+   padding-top: 10px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 100;
+}
+
+h2{
+    color: #BCBBBB;
+}
+
+footer{
+    padding-top: 5px;
+    margin-top: 10px;
+    color:#BCBBBB;
+    background-color:#676857;
+    }
+    
+.galery-logo{
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) { 
+        .col-xxs-12 {
+            float: none;
+            width: 100%;  
+        }
+ }
